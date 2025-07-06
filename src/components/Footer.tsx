@@ -9,7 +9,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* About Section */}
           <div>
-            <h3 className="text-xl font-bold text-terra-gold mb-4">TheBrayem</h3>
+            <h3 className="text-xl font-bold text-white mb-4">TERRAFYND</h3>
             <p className="text-gray-300 mb-4">
               Nigeria's premier property listing platform. Discover your perfect home with trusted agents and verified properties.
             </p>
@@ -31,7 +31,7 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <ul className="space-y-2 text-gray-300">
               <li>+234 (0) 123 456 789</li>
-              <li>info@thebrayem.com</li>
+              <li>info@terrafynd.com</li>
               <li>Lagos, Nigeria</li>
             </ul>
           </div>
@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 TheBrayem. All rights reserved.
+            © 2024 TERRAFYND. All rights reserved.
           </p>
         </div>
       </div>

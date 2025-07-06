@@ -25,10 +25,10 @@ const WhyChooseUs: React.FC = () => {
     <section className="py-16 px-4 bg-terra-off-white">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-terra-charcoal mb-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-terra-charcoal mb-3">
             Why Choose Us
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-base text-gray-600 max-w-2xl mx-auto">
             Your trusted partner in finding the perfect property with complete peace of mind
           </p>
         </div>
@@ -41,10 +41,10 @@ const WhyChooseUs: React.FC = () => {
                 <div className="inline-flex items-center justify-center w-16 h-16 bg-terra-gold/20 rounded-full mb-6">
                   <IconComponent className="w-8 h-8 text-terra-gold" />
                 </div>
-                <h3 className="text-2xl font-bold text-terra-charcoal mb-4">
+                <h3 className="text-lg font-bold text-terra-charcoal mb-3">
                   {feature.title}
                 </h3>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-sm text-gray-600 leading-relaxed">
                   {feature.description}
                 </p>
               </div>

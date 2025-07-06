@@ -41,11 +41,11 @@ const FeaturedProperties: React.FC<FeaturedPropertiesProps> = ({ properties }) =
     <section className="py-16 px-4">
       <div className="container mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-terra-charcoal mb-4">
+          <h2 className="text-2xl md:text-3xl font-bold text-terra-charcoal mb-2">
             Featured Properties
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Discover handpicked premium properties from Nigeria's most sought-after locations
+          <p className="text-lg font-semibold text-green-500">
+            🔥 Hot
           </p>
         </div>
         

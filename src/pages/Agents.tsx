@@ -116,7 +116,7 @@ const Agents: React.FC = () => {
               Home
             </button>
             <ChevronRight className="w-4 h-4 text-gray-400" />
-            <span className="text-terra-gold font-medium">Agents</span>
+            <span className="text-blue-600 font-medium">Agents</span>
           </nav>
         </div>
       </div>
@@ -125,8 +125,8 @@ const Agents: React.FC = () => {
       <div className="bg-terra-charcoal py-12">
         <div className="container mx-auto px-4">
           <div className="text-center text-white">
-            <h1 className="text-4xl font-bold mb-4">Verified Real Estate Agents</h1>
-            <p className="text-xl text-gray-300">Connect with trusted professionals who understand the Nigerian property market</p>
+            <h1 className="text-3xl font-bold mb-4">Verified Real Estate Agents</h1>
+            <p className="text-lg text-gray-300">Connect with trusted professionals who understand the Nigerian property market</p>
           </div>
         </div>
       </div>
@@ -160,8 +160,8 @@ const Agents: React.FC = () => {
         <div className="mb-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
             <div>
-              <h2 className="text-2xl font-bold text-terra-charcoal mb-2">Featured Agents</h2>
-              <p className="text-gray-600">All agents are verified and background-checked for your security</p>
+              <h2 className="text-xl font-bold text-terra-charcoal mb-2">Featured Agents</h2>
+              <p className="text-sm text-gray-600">All agents are verified and background-checked for your security</p>
             </div>
             <div className="flex gap-4">
               <select className="px-4 py-2 border border-gray-300 rounded-lg bg-white">
@@ -199,8 +199,8 @@ const Agents: React.FC = () => {
                     </div>
                   )}
                 </div>
-                <h3 className="text-xl font-bold text-terra-charcoal mb-1">{agent.name}</h3>
-                <p className="text-gray-600 mb-2">{agent.company}</p>
+                <h3 className="text-lg font-bold text-terra-charcoal mb-1">{agent.name}</h3>
+                <p className="text-sm text-gray-600 mb-2">{agent.company}</p>
                 <div className="flex items-center justify-center gap-1 mb-2">
                   <MapPin className="w-4 h-4 text-gray-400" />
                   <span className="text-sm text-gray-600">{agent.location}</span>
@@ -243,7 +243,7 @@ const Agents: React.FC = () => {
                   <CustomButton
                     variant="primary"
                     size="sm"
-                    className="flex-1"
+                    className="flex-1 bg-green-500 hover:bg-green-600 text-white"
                   >
                     <Phone className="w-4 h-4 mr-1" />
                     Call
@@ -280,10 +280,10 @@ const Agents: React.FC = () => {
       {/* CTA Section */}
       <div className="bg-terra-green py-12">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-2xl font-bold text-white mb-4">
             Want to become a verified agent?
           </h2>
-          <p className="text-terra-off-white/80 mb-6 max-w-2xl mx-auto">
+          <p className="text-base text-terra-off-white/80 mb-6 max-w-2xl mx-auto">
             Join our network of trusted real estate professionals and reach thousands of potential clients
           </p>
           <CustomButton variant="primary" size="lg" onClick={handleApplyNow}>

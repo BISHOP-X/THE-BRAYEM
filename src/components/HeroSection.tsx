@@ -15,7 +15,7 @@ const HeroSection: React.FC = () => {
   };
   
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative h-[50vh] min-h-[400px] flex items-center justify-center overflow-hidden">
       {/* Background Image */}
       <div 
         className="absolute inset-0 bg-cover bg-center"
@@ -29,12 +29,12 @@ const HeroSection: React.FC = () => {
 
       {/* Content */}
       <div className="relative z-10 text-center text-white px-4 max-w-4xl">
-        <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
+        <h1 className="text-3xl md:text-5xl font-bold text-white mb-6 leading-tight">
           Discover a Place <br />
-          <span className="text-terra-gold">You'll Love to Live</span>
+          <span className="text-green-400">You'll Love to Live</span>
         </h1>
         
-        <p className="text-xl md:text-2xl text-gray-200 mb-8 max-w-2xl mx-auto">
+        <p className="text-lg md:text-xl text-gray-200 mb-8 max-w-2xl mx-auto">
           Find your perfect home in Nigeria's most desirable locations with verified properties and trusted agents.
         </p>
 
@@ -47,7 +47,7 @@ const HeroSection: React.FC = () => {
                 placeholder="Enter location, city, or area"
                 value={location}
                 onChange={(e) => setLocation(e.target.value)}
-                className="w-full px-4 py-3 rounded-md bg-white/20 text-white placeholder-gray-300 border border-white/30 focus:outline-none focus:ring-2 focus:ring-terra-gold backdrop-blur-sm"
+                className="w-full px-4 py-3 rounded-md bg-white/20 text-white placeholder-gray-300 border border-white/30 focus:outline-none focus:ring-2 focus:ring-green-400 backdrop-blur-sm"
               />
             </div>
             <div className="flex-shrink-0">

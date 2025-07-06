@@ -19,7 +19,7 @@ const Testimonials: React.FC = () => {
       name: "Adebayo Okunola",
       location: "Lagos, Nigeria",
       image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
-      quote: "TheBrayem made finding my dream home so easy. The agents were professional, the process was transparent, and I felt supported throughout. I couldn't be happier with my new home in Lekki!",
+      quote: "TERRAFYND made finding my dream home so easy. The agents were professional, the process was transparent, and I felt supported throughout. I couldn't be happier with my new home in Lekki!",
       rating: 5
     },
     {
@@ -27,7 +27,7 @@ const Testimonials: React.FC = () => {
       name: "Fatima Mohammed",
       location: "Abuja, Nigeria",
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
-      quote: "As a first-time buyer, I was nervous about the process. TheBrayem's team guided me every step of the way and helped me secure a fantastic property in Maitama. Highly recommended!",
+      quote: "As a first-time buyer, I was nervous about the process. TERRAFYND's team guided me every step of the way and helped me secure a fantastic property in Maitama. Highly recommended!",
       rating: 5
     },
     {
@@ -35,7 +35,7 @@ const Testimonials: React.FC = () => {
       name: "Chukwuma Okafor",
       location: "Port Harcourt, Nigeria",
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80",
-      quote: "I've used several property platforms, but TheBrayem stands out. No fake listings, verified agents, and excellent customer service. They truly care about their clients' satisfaction.",
+      quote: "I've used several property platforms, but TERRAFYND stands out. No fake listings, verified agents, and excellent customer service. They truly care about their clients' satisfaction.",
       rating: 5
     }
   ];
@@ -75,7 +75,7 @@ const Testimonials: React.FC = () => {
             </div>
 
             {/* Quote */}
-            <blockquote className="text-2xl md:text-3xl font-medium text-terra-off-white mb-8 leading-relaxed italic">
+            <blockquote className="text-lg md:text-xl font-medium text-terra-off-white mb-8 leading-relaxed italic">
               "{current.quote}"
             </blockquote>
 

@@ -28,9 +28,9 @@ const PropertyCard: React.FC<PropertyCardProps> = ({
   className
 }) => {
   return (
-    <div className={cn("relative overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300", className)}>
+    <div className={cn("overflow-hidden rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 bg-white", className)}>
       {/* Property Image */}
-      <div className="relative h-64 bg-gray-200">
+      <div className="relative h-48 bg-gray-200">
         <img 
           src={image} 
           alt={title}
@@ -47,33 +47,31 @@ const PropertyCard: React.FC<PropertyCardProps> = ({
             </CustomBadge>
           </div>
         )}
+      </div>
+
+      {/* Property Details - White Background Section */}
+      <div className="p-4 bg-white">
+        {/* Title */}
+        <h3 className="text-lg font-bold text-gray-900 mb-2 line-clamp-2">{title}</h3>
         
-        {/* Dark Overlay for Text */}
-        <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-4">
-          {/* Property Details */}
-          <div className="text-white">
-            <h3 className="text-lg font-bold mb-2 line-clamp-2">{title}</h3>
-            
-            {/* Location */}
-            <div className="flex items-center text-sm text-gray-200 mb-3">
-              <Pin className="w-4 h-4 mr-1" />
-              <span>{location}</span>
-            </div>
-            
-            {/* Property Features */}
-            <div className="flex items-center justify-between">
-              <div className="flex items-center space-x-4 text-sm text-gray-200">
-                <span>{beds} Beds</span>
-                <span>{baths} Baths</span>
-                <span>{area}</span>
-              </div>
-              
-              {/* Price */}
-              <div className="text-terra-gold font-bold text-lg">
-                {price}
-              </div>
-            </div>
-          </div>
+        {/* Price */}
+        <div className="text-xl font-bold text-green-600 mb-3">
+          {price}
+        </div>
+        
+        {/* Location */}
+        <div className="flex items-center text-sm text-gray-600 mb-3">
+          <Pin className="w-4 h-4 mr-1" />
+          <span>{location}</span>
+        </div>
+        
+        {/* Property Features */}
+        <div className="flex items-center space-x-4 text-sm text-gray-500">
+          <span>{beds} Beds</span>
+          <span>•</span>
+          <span>{baths} Baths</span>
+          <span>•</span>
+          <span>{area}</span>
         </div>
       </div>
     </div>

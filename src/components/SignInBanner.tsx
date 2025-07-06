@@ -9,7 +9,7 @@ const SignInBanner: React.FC = () => {
   return (
     <section className="bg-terra-green py-12 px-4">
       <div className="container mx-auto text-center">
-        <h2 className="text-2xl md:text-3xl font-bold text-terra-off-white mb-4">
+        <h2 className="text-xl md:text-2xl font-bold text-terra-off-white mb-4">
           Sign in to streamline your search
         </h2>
         <p className="text-terra-off-white/80 mb-6 max-w-2xl mx-auto">

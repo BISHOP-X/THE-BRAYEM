@@ -117,7 +117,7 @@ const Listings: React.FC = () => {
               Home
             </button>
             <ChevronRight className="w-4 h-4 text-gray-400" />
-            <span className="text-terra-gold font-medium">All Listings</span>
+            <span className="text-blue-600 font-medium">All Listings</span>
           </nav>
         </div>
       </div>
@@ -126,7 +126,7 @@ const Listings: React.FC = () => {
       <div className="bg-terra-charcoal py-12">
         <div className="container mx-auto px-4">
           <div className="text-center text-white">
-            <h1 className="text-4xl font-bold mb-4">All Property Listings</h1>
+            <h1 className="text-3xl font-bold mb-4">All Property Listings</h1>
             <p className="text-xl text-gray-300">Discover your perfect home from our verified properties</p>
           </div>
         </div>

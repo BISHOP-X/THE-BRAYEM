@@ -1,10 +1,10 @@
 {
-  "name": "thebrayem",
+  "name": "terrafynd",
   "private": true,
   "version": "1.0.0",
   "type": "module",
   "description": "Nigerian Property Listing Platform - Combat rental fraud through verified agents and approved listings",
-  "author": "TheBrayem Team",
+  "author": "TERRAFYND Team",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

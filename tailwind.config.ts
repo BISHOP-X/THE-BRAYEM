@@ -63,7 +63,7 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// TheBrayem Brand Colors
+				// TERRAFYND Brand Colors
 				'terra-green': '#1E3932',
 				'terra-gold': '#C7A44D',
 				'terra-charcoal': '#1A1A1A',

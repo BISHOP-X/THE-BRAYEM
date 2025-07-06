@@ -63,7 +63,7 @@ const Signup: React.FC = () => {
       {/* Left Side - Branding & Info */}
       <div className="relative z-10 hidden lg:flex lg:w-1/2 flex-col justify-center px-12 text-white">
         <div className="max-w-md">
-          <h1 className="text-5xl font-bold text-terra-gold mb-6">TheBrayem</h1>
+          <h1 className="text-5xl font-bold text-white mb-6">TERRAFYND</h1>
           <h2 className="text-3xl font-semibold mb-4">Join Our Community</h2>
           <p className="text-xl text-gray-200 mb-8">
             Start your journey to finding the perfect Nigerian property today
@@ -103,7 +103,7 @@ const Signup: React.FC = () => {
         <div className="w-full max-w-md">
           {/* Mobile Branding */}
           <div className="lg:hidden text-center mb-8">
-            <h1 className="text-3xl font-bold text-terra-gold mb-2">TheBrayem</h1>
+            <h1 className="text-3xl font-bold text-gray-800 mb-2">TERRAFYND</h1>
             <p className="text-white/80">Authentic Nigerian Properties</p>
           </div>
 

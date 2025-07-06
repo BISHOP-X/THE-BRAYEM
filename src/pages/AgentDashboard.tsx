@@ -105,7 +105,7 @@ const AgentDashboard: React.FC = () => {
         ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full lg:translate-x-0'}
       `}>
         <div className="flex items-center justify-between p-6 border-b border-gray-700">
-          <h2 className="text-xl font-bold text-terra-gold">TheBrayem</h2>
+          <h2 className="text-xl font-bold text-white">TERRAFYND</h2>
           <button
             onClick={() => setIsSidebarOpen(false)}
             className="lg:hidden text-terra-off-white hover:text-terra-gold"

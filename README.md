@@ -1,8 +1,8 @@
-# TheBrayem - Nigerian Property Listing Platform
+# TERRAFYND - Nigerian Property Listing Platform
 
 ## Overview
 
-TheBrayem is a comprehensive property listing platform designed to combat rental fraud in the Nigerian real estate market through verified agents and approved listings.
+TERRAFYND is a comprehensive property listing platform designed to combat rental fraud in the Nigerian real estate market through verified agents and approved listings.
 
 ## Features
 

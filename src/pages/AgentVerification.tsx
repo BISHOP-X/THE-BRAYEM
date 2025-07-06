@@ -179,7 +179,7 @@ const AgentVerification: React.FC = () => {
                     className="mt-1 w-4 h-4 text-terra-gold border-gray-300 rounded focus:ring-terra-gold"
                   />
                   <span className="text-sm text-gray-700">
-                    I confirm that all information provided is accurate and I agree to TheBrayem's{' '}
+                    I confirm that all information provided is accurate and I agree to TERRAFYND's{' '}
                     <a href="#" className="text-terra-gold hover:underline">Terms of Service</a> and{' '}
                     <a href="#" className="text-terra-gold hover:underline">Privacy Policy</a>.
                   </span>

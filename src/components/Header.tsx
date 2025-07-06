@@ -22,14 +22,14 @@ const Header: React.FC = () => {
   return (
     <header className="sticky top-0 z-50 bg-terra-charcoal/95 backdrop-blur-sm border-b border-terra-charcoal/20">
       <div className="container mx-auto px-4">
-        <div className="flex items-center justify-between h-16">
+        <div className="flex items-center justify-between h-12">
           {/* Logo */}
           <div className="flex-shrink-0">
             <button 
               onClick={handleLogoClick}
-              className="text-2xl font-bold text-terra-gold hover:text-terra-gold/80 transition-colors cursor-pointer"
+              className="text-xl font-bold text-white hover:text-white/80 transition-colors cursor-pointer"
             >
-              TheBrayem
+              TERRAFYND
             </button>
           </div>
 
@@ -39,7 +39,7 @@ const Header: React.FC = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="text-terra-off-white hover:text-terra-gold transition-colors font-medium"
+                className="text-white hover:text-white/80 transition-colors font-medium"
               >
                 {link.name}
               </a>
@@ -66,7 +66,7 @@ const Header: React.FC = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-terra-off-white hover:text-terra-gold transition-colors"
+            className="md:hidden text-white hover:text-white/80 transition-colors"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             aria-label="Toggle menu"
           >
@@ -76,19 +76,19 @@ const Header: React.FC = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden bg-terra-green rounded-lg mt-2 py-4 px-4">
+          <div className="md:hidden bg-terra-charcoal rounded-lg mt-2 py-4 px-4">
             <nav className="flex flex-col space-y-4">
               {navigationLinks.map((link) => (
                 <a
                   key={link.name}
                   href={link.href}
-                  className="text-terra-off-white hover:text-terra-gold transition-colors font-medium py-2"
+                  className="text-white hover:text-white/80 transition-colors font-medium py-2"
                   onClick={() => setIsMenuOpen(false)}
                 >
                   {link.name}
                 </a>
               ))}
-              <div className="pt-4 border-t border-terra-off-white/20 space-y-3">
+              <div className="pt-4 border-t border-white/20 space-y-3">
                 <CustomButton 
                   variant="outline" 
                   size="md" 

@@ -54,7 +54,7 @@ const Contact: React.FC = () => {
               Home
             </button>
             <ChevronRight className="w-4 h-4 text-gray-400" />
-            <span className="text-terra-gold font-medium">Contact</span>
+            <span className="text-blue-600 font-medium">Contact</span>
           </nav>
         </div>
       </div>
@@ -63,7 +63,7 @@ const Contact: React.FC = () => {
       <div className="bg-terra-charcoal py-12">
         <div className="container mx-auto px-4">
           <div className="text-center text-white">
-            <h1 className="text-4xl font-bold mb-4">Contact Us</h1>
+            <h1 className="text-3xl font-bold mb-4">Contact Us</h1>
             <p className="text-xl text-gray-300">We're here to help you find your perfect property</p>
           </div>
         </div>
@@ -194,8 +194,8 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h3 className="font-semibold text-terra-charcoal mb-1">Email</h3>
-                    <p className="text-gray-600">hello@thebrayem.com</p>
-                    <p className="text-gray-600">support@thebrayem.com</p>
+                    <p className="text-gray-600">hello@terrafynd.com</p>
+                    <p className="text-gray-600">support@terrafynd.com</p>
                   </div>
                 </div>
 

@@ -155,7 +155,7 @@ const PropertyDetails: React.FC = () => {
 
             {/* Title and Price */}
             <div className="mb-6">
-              <h1 className="text-2xl lg:text-3xl font-bold text-terra-charcoal mb-2">
+              <h1 className="text-xl lg:text-2xl font-bold text-terra-charcoal mb-2">
                 {property.title}
               </h1>
               <div className="text-3xl font-bold text-terra-gold mb-4">
@@ -232,7 +232,7 @@ const PropertyDetails: React.FC = () => {
                   <CustomButton
                     variant="default"
                     size="lg"
-                    className="w-full bg-terra-gold hover:bg-terra-gold/90 text-terra-charcoal"
+                    className="w-full bg-green-500 hover:bg-green-600 text-white"
                     onClick={handleWhatsApp}
                   >
                     <MessageCircle className="w-5 h-5 mr-2" />
@@ -242,7 +242,7 @@ const PropertyDetails: React.FC = () => {
                   <CustomButton
                     variant="secondary"
                     size="lg"
-                    className="w-full"
+                    className="w-full bg-green-500 hover:bg-green-600 text-white border-green-500"
                     onClick={handleEnquiry}
                   >
                     <Phone className="w-5 h-5 mr-2" />
@@ -261,7 +261,7 @@ const PropertyDetails: React.FC = () => {
           <CustomButton
             variant="default"
             size="lg"
-            className="flex-1 bg-terra-gold hover:bg-terra-gold/90 text-terra-charcoal"
+            className="flex-1 bg-green-500 hover:bg-green-600 text-white"
             onClick={handleWhatsApp}
           >
             <MessageCircle className="w-5 h-5 mr-2" />
@@ -271,7 +271,7 @@ const PropertyDetails: React.FC = () => {
           <CustomButton
             variant="secondary"
             size="lg"
-            className="flex-1"
+            className="flex-1 bg-green-500 hover:bg-green-600 text-white border-green-500"
             onClick={handleEnquiry}
           >
             <Phone className="w-5 h-5 mr-2" />
